@@ -30,10 +30,7 @@ export default function RootLayout({
     >
       <body className="min-h-full bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-50">
         
-        {/* Navbar (ONLY HERE) */}
         <Navbar />
-
-        {/* Full width content */}
         <main className="w-full min-h-screen">
           {children}
         </main>
